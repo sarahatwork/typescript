@@ -12,7 +12,7 @@ import Gallery from './components/Gallery';
 const client = new ApolloClient({
   cache: new InMemoryCache(),
   link: new HttpLink({
-    uri: 'https://metaphysics-production.artsy.net/'
+    uri: 'https://rickandmortyapi.com/graphql'
   })
 });
 
